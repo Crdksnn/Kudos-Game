@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56f9eb95c31fd9246972035224b2a969, type: 3}
+  m_Name: Person 1 Interview
+  m_EditorClassIdentifier: 
+  personPrefab: {fileID: 7542643061895617660, guid: f9badab96c5bb5041a28fe4d7193f9f9, type: 3}
+  propertiesCardImage: {fileID: 21300000, guid: d932c6b85403b5248a31c7ae8f00d649, type: 3}
+  winParticleEffects:
+  - {fileID: 6759395949743672282, guid: 4619b73af031a6840933ae0ed17640c1, type: 3}
+  loseParticleEffects:
+  - {fileID: 6037844525683962831, guid: 5f3671e5e0efe2748a0b7667e2063a74, type: 3}
+  greenButtonText: HIRE
+  redButtonText: DISMISS
+  goodDecisitonText: CORRECT!
+  badDecisionText: BAD DECISION!
+  goodDecisitonColor: {r: 0, g: 1, b: 0.008930683, a: 0}
+  badDecisitonColor: {r: 1, g: 0.049993925, b: 0, a: 0}
